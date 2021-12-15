@@ -40,17 +40,18 @@ public class Human extends Humanoid {
             this.hasArmor = true;
         }
     }
+
     //Getters
     public int getShield(){
-        return shield;
+        return this.shield;
     }
 
     public int getSword(){
-        return sword;
+        return this.sword;
     }
 
     public int getBodyArmor(){
-        return bodyArmor;
+        return this.bodyArmor;
     }
 
     @Override

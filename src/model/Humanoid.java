@@ -1,3 +1,5 @@
+package model;
+
 public class Humanoid {
     public String name;
     public double health = 100.0;

@@ -1,3 +1,5 @@
+package model;
+
 public class Goblin extends Humanoid {
     Goblin(){}
 
@@ -10,7 +12,7 @@ public class Goblin extends Humanoid {
 
     @Override
     public String toString(){
-        //TODO create a string representation of a Goblin.
+        //TODO create a string representation of a model.Goblin.
         return null;
     }
 }

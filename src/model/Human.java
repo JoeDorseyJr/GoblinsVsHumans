@@ -1,3 +1,4 @@
+package model;
 
 public class Human extends Humanoid {
     public int shield = 0;
@@ -56,7 +57,7 @@ public class Human extends Humanoid {
 
     @Override
     public String toString(){
-        //TODO create a string representation of a Human.
+        //TODO create a string representation of a model.Human.
         return null;
     }
 

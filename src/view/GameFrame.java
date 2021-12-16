@@ -1,7 +1,8 @@
+package view;
 import javax.swing.*;
 
 public class GameFrame extends JFrame {
-    GameFrame(){
+    public GameFrame(){
         this.add(new GamePanel());
         this.setTitle("Goblins vs. Humans");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

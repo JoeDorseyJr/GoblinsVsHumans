@@ -1,3 +1,6 @@
+package model;
+
+import model.RandomNumbers;
 
 public class RewardChest {
     RandomNumbers stamina_number = new RandomNumbers();

@@ -9,9 +9,8 @@ public class Land {
     RandomNumbers blue = red;
     private int x = 80+1;
     private int y = 80-4;
-    private int width = 4;
-    private int height = 4;
-    private Color color = new Color(red.Int(), green.Int(), blue.Int());
+    private int width = 1;
+    private int height = 1;
 
     public Land(){
     }
@@ -36,7 +35,6 @@ public class Land {
     }
 
     public void setColor (Color color){
-        this.color = color;
     }
 
     public void setX(int x){

@@ -5,22 +5,22 @@ import java.awt.*;
 public class Land {
 
     RandomNumbers red = new RandomNumbers(5);
-    RandomNumbers green = new RandomNumbers(100,115);
+    RandomNumbers green = new RandomNumbers(90,115);
     RandomNumbers blue = red;
     private int x = 80+1;
     private int y = 80-4;
-    private int width = 1;
-    private int height = 1;
+    private int width = 20;
+    private int height = 20;
 
     public Land(){
     }
 
-    Land(int squares) {
+    public Land(int squares) {
         this.setHeight(squares);
         this.setWidth(squares);
     }
 
-    Land(int width, int height){
+    public Land(int width, int height){
         this.setWidth(width);
         this.setHeight(height);
     }

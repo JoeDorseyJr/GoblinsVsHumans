@@ -85,6 +85,7 @@ public class RandomNumbers {
         this.setTo(to);
         return setNumberDouble(randD(this.getFrom(),this.getTo()));
     }
+
     public int randI(int from,int to){
         double number = Math.random();
         if (this.getFrom() < 0 ) {
@@ -92,6 +93,7 @@ public class RandomNumbers {
         }
         return (int) Math.round(number * to + (from-(from*number)));
     }
+
     public double randD(int from,int to){
         double number = Math.random();
         if (this.getFrom() < 0 ) {
